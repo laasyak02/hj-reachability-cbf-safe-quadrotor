@@ -4,6 +4,7 @@ A safety filter that keeps a quadrotor inside a provably safe set during flight,
 
 Demonstrated in simulation and on a real Crazyflie, with a comparison of two safety-filter formulations (detailed below).
 
+> **Note:** This repo presents the method and results. The code is part of ongoing work being prepared for publication, and is therefore not included here.
 ---
 
 ## Why HJ reachability?
@@ -81,7 +82,7 @@ Both methods are run on the **same obstacle layouts**, so any difference comes f
 
 ### Hardware — Crazyflie 2.x
 
-Deployed on a real Crazyflie with Vicon motion capture and a containerized ROS2 stack.
+Deployed on a real Crazyflie with Vicon motion capture.
 
 | Hard-max | Log-sum-exp |
 |----------|-------------|
@@ -104,5 +105,3 @@ Deployed on a real Crazyflie with Vicon motion capture and a containerized ROS2 
 - Ames et al. *Control Barrier Function Based Quadratic Programs with Application to Adaptive Cruise Control.* CDC, 2014.
 
 ---
-
-> **Note:** This repo presents the method and results. The code is part of ongoing work being prepared for publication.
