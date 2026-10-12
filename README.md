@@ -88,7 +88,7 @@ Deployed on a real Crazyflie with Vicon motion capture. The videos below show th
 
 | Hard-max | Log-sum-exp |
 |----------|-------------|
-| https://github.com/user-attachments/assets/1abb0d93-2149-4bea-a372-832f6a237acf | https://github.com/user-attachments/assets/e30ee198-2d4d-4bc9-9a33-144106c59e73 |
+| <video src="https://github.com/user-attachments/assets/1abb0d93-2149-4bea-a372-832f6a237acf" controls width="100%"></video> | <video src="https://github.com/user-attachments/assets/e30ee198-2d4d-4bc9-9a33-144106c59e73" controls width="100%"></video> |
 
 The drone hits an obstacle under the hard-max composition, while successfully avoids the obstacles under the smooth LSE composition.
 
