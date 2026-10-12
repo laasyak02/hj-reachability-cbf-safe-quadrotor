@@ -82,20 +82,20 @@ Both methods are run on the **same obstacle layouts**, so any difference comes f
 
 The hard-max method demonstrates a lot more chattering, due to constant jumps in the control input near the obstacle barrier, as compared to the smooth log-sum-exp composition method. This difference can be observed in the demonstration videos: the hard-max method shows jerky behavior while avoiding the obstacles, whereas the LSE method avoids them smoothly due to the almost-constant safety-filter activation.
 
-### Hardware — Crazyflie 2.x
+### Hardware - Crazyflie 2.x
 
 Deployed on a real Crazyflie with Vicon motion capture. The videos below show the behavior of the drone under the two different composition techniques for the same obstacle layout.
 
 | Hard-max | Log-sum-exp |
 |----------|-------------|
-| <video src="https://github.com/user-attachments/assets/1abb0d93-2149-4bea-a372-832f6a237acf" controls width="100%"></video> | <video src="https://github.com/user-attachments/assets/e30ee198-2d4d-4bc9-9a33-144106c59e73" controls width="100%"></video> |
+| https://github.com/user-attachments/assets/fbd580c4-6fd3-49df-95b2-07be89c4fe0d | https://github.com/user-attachments/assets/09ee099e-f4e8-422b-a18b-96aaae8c9cf5 |
 
 The drone hits an obstacle under the hard-max composition, while successfully avoids the obstacles under the smooth LSE composition.
 
 Below are a few more examples using the LSE method, with different obstacle configurations, where the drone successfully avoids the obstacles during its traversal.
-
+| LSE - more examples | |
 |--|--|--|
-| https://github.com/user-attachments/assets/361f7581-4ced-4183-8a61-47a2a1ab974a | https://github.com/user-attachments/assets/a0aa9150-7b83-4273-a428-5ed74a0e3b72 | 
+| https://github.com/user-attachments/assets/f4181061-1f32-4fd9-9072-721eca6a1f2b | https://github.com/user-attachments/assets/80fb4442-a5cf-44ce-b7cd-ce5b4bdd824f | 
 
 ---
 
