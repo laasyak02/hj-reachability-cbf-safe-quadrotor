@@ -93,8 +93,9 @@ Deployed on a real Crazyflie with Vicon motion capture. The videos below show th
 The drone hits an obstacle under the hard-max composition, while successfully avoids the obstacles under the smooth LSE composition.
 
 Below are a few more examples using the LSE method, with different obstacle configurations, where the drone successfully avoids the obstacles during its traversal.
-| LSE - more examples | |
-|--|--|--|
+
+| LSE — more examples | |
+|---|---|
 | https://github.com/user-attachments/assets/f4181061-1f32-4fd9-9072-721eca6a1f2b | https://github.com/user-attachments/assets/80fb4442-a5cf-44ce-b7cd-ce5b4bdd824f | 
 
 ---
