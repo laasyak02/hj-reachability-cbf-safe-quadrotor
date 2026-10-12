@@ -78,7 +78,7 @@ Both methods are run on the **same obstacle layouts**, so any difference comes f
 
 | Hard-max | Log-sum-exp |
 |----------|-------------|
-| *[hard-max sim video]* | *[LSE sim video]* |
+| https://github.com/user-attachments/assets/30b0a336-7121-481f-92e4-0fd28518edb8 | https://github.com/user-attachments/assets/12a53d46-e91b-4bb6-9de3-beaa94dc149b |
 
 The hard-max method demonstrates a lot more chattering, due to constant jumps in the control input near the obstacle barrier, as compared to the smooth log-sum-exp composition method. This difference can be observed in the demonstration videos: the hard-max method shows jerky behavior while avoiding the obstacles, whereas the LSE method avoids them smoothly due to the almost-constant safety-filter activation.
 
