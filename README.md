@@ -88,7 +88,7 @@ Deployed on a real Crazyflie with Vicon motion capture. The videos below show th
 
 | Hard-max | Log-sum-exp |
 |----------|-------------|
-| *[hard-max flight video]* | *[LSE flight video]* |
+| https://github.com/user-attachments/assets/1abb0d93-2149-4bea-a372-832f6a237acf | https://github.com/user-attachments/assets/e30ee198-2d4d-4bc9-9a33-144106c59e73 |
 
 The drone hits an obstacle under the hard-max composition, while successfully avoids the obstacles under the smooth LSE composition.
 
@@ -96,7 +96,7 @@ Below are a few more examples using the LSE method, with different obstacle conf
 
 | | | |
 |--|--|--|
-| *[LSE flight 1]* | *[LSE flight 2]* | *[LSE flight 3]* |
+| https://github.com/user-attachments/assets/361f7581-4ced-4183-8a61-47a2a1ab974a | https://github.com/user-attachments/assets/a0aa9150-7b83-4273-a428-5ed74a0e3b72 | 
 
 ---
 
