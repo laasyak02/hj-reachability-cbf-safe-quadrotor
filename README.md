@@ -94,7 +94,6 @@ The drone hits an obstacle under the hard-max composition, while successfully av
 
 Below are a few more examples using the LSE method, with different obstacle configurations, where the drone successfully avoids the obstacles during its traversal.
 
-| | | |
 |--|--|--|
 | https://github.com/user-attachments/assets/361f7581-4ced-4183-8a61-47a2a1ab974a | https://github.com/user-attachments/assets/a0aa9150-7b83-4273-a428-5ed74a0e3b72 | 
 
